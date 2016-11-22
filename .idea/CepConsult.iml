@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/container-interop/container-interop" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/respect/validation" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-config" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-escaper" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-eventmanager" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-http" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-loader" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-modulemanager" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-mvc" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-router" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-servicemanager" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-stdlib" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-uri" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-validator" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-view" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="PHP">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/composer" />
+          <root url="file://$MODULE_DIR$/vendor/container-interop/container-interop" />
+          <root url="file://$MODULE_DIR$/vendor/respect/validation" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/polyfill-mbstring" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-config" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-escaper" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-eventmanager" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-http" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-loader" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-modulemanager" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-mvc" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-router" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-servicemanager" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-stdlib" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-uri" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-validator" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-view" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/composer" />
+          <root url="file://$MODULE_DIR$/vendor/container-interop/container-interop" />
+          <root url="file://$MODULE_DIR$/vendor/respect/validation" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/polyfill-mbstring" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-config" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-escaper" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-eventmanager" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-http" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-loader" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-modulemanager" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-mvc" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-router" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-servicemanager" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-stdlib" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-uri" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-validator" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-view" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="PHARS">
+        <CLASSES>
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/classmap.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/PharModuleMap.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/PharModuleGz.phar.gz/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/ApplicationModulePhar.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/PharModule.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/PharModulePharTar.phar.tar/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-view/test/_templates/view.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/PharModulePharTarGz.phar.tar.gz/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/PharModuleExplicit.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/PharModuleBz2.phar.bz2/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/PharModulePharZip.phar.zip/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/PharModulePharTarBz2.phar.tar.bz2/" />
+        </CLASSES>
+        <SOURCES>
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/classmap.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/PharModuleMap.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/PharModuleGz.phar.gz/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/ApplicationModulePhar.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/PharModule.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/PharModulePharTar.phar.tar/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-view/test/_templates/view.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/PharModulePharTarGz.phar.tar.gz/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/PharModuleExplicit.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/PharModuleBz2.phar.bz2/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/PharModulePharZip.phar.zip/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/PharModulePharTarBz2.phar.tar.bz2/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

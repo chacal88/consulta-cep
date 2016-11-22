@@ -1,37 +1,37 @@
 <?php
-namespace ZendSkeletonModule;
 
-use Zend\ServiceManager\Factory\InvokableFactory;
+namespace CepConsulta;
+
+use CepConsulta\Controller\ConsultaController;
+use Zend\Router\Http\Literal;
 
 return [
-    'controllers' => [
-        'factories' => [
-            Controller\SkeletonController::class => InvokableFactory::class,
-        ],
-    ],
     'router' => [
         'routes' => [
-            'module-name-here' => [
-                'type'    => 'Literal',
+            'public-cep' => [
+                'type' => Literal::class,
                 'options' => [
-                    // Change this to something specific to your module
-                    'route'    => '/module-specific-root',
-                    'defaults' => [
-                        'controller'    => Controller\SkeletonController::class,
-                        'action'        => 'index',
-                    ],
+                    'route' => '/consulta'
                 ],
-                'may_terminate' => true,
+                'may_terminate' => false,
                 'child_routes' => [
-                    // You can place additional routes that match under the
-                    // route defined above here.
-                ],
+                    'veiculo' => [
+                        'type' => 'segment',
+                        'options' => [
+                            'verb' => 'get',
+                            'route' => '/cep[/:id]',
+                            'defaults' => [
+                                'controller' => ConsultaController::class,
+                            ]
+                        ]
+                    ]
+                ]
             ],
         ],
     ],
     'view_manager' => [
-        'template_path_stack' => [
-            'ZendSkeletonModule' => __DIR__ . '/../view',
-        ],
-    ],
+        'strategies' => array(
+            'ViewJsonStrategy',
+        ),
+    ]
 ];

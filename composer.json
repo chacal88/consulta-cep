@@ -1,0 +1,27 @@
+{
+  "name" : "chacal/consulta-cep",
+  "description" : "Consulta para Cep",
+  "license" : "MIT",
+  "homepage" : "https://github.com/chacal88/consulta-cep.git",
+  "type": "project",
+  "minimum-stability": "dev",
+  "autoload-dev": {
+    "psr-4": {
+      "CepConsulta\\": "src/"
+    }
+  },
+  "authors" : [
+    {
+      "name" : "Kaue Rodrigues",
+      "email" : "kauemsc@gmail.com",
+      "homepage" : "https://github.com/chacal88",
+      "role" : "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "zendframework/zend-mvc": "^3.0",
+    "container-interop/container-interop": "~1.0",
+    "zendframework/zend-modulemanager": "^2.7"
+  }
+}
