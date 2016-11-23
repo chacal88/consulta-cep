@@ -1,12 +1,29 @@
 <?php
-
+/**
+ * Copyright (c) 2016 , Kaue Rodrigues All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without modification, are permitted,:
+ *
+ */
 
 namespace CepConsulta\Service;
 
-
+/**
+ * Class CepServiceConsult
+ *
+ * @author Kaue Rodrigues <kauemsc@gmail.com>
+ *
+ * @package CepConsulta\Service
+ */
 class CepServiceConsult
 {
 
+    /**
+     * consultaCep
+     *
+     * @param $cep
+     * @return mixed
+     */
     public function consultaCep($cep)
     {
         $token = 'd4741c714a60bd9227518357838bde83';
